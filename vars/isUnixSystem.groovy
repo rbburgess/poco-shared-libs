@@ -2,8 +2,8 @@
 
 def call() {
   if(isUnix()){
-      echo 'Unix'
+      return true
   }else {
-      echo 'Windows'
+      return false
   }
 }
